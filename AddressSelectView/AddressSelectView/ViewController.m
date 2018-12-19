@@ -26,11 +26,7 @@
             NSLog(@"地区：regionId=%@",regionId);
             [_citySelectView popShowOrCloseView:NO];
             if (address) {
-//                _address = address;
-//                _regionId = regionId;
-//                //有可能是编辑时进入，此时需要更新model信息
-//                _addressModel.regionFullName = address;
-//                _addressModel.regionId = regionId;
+
                 _addressLab.text = address;
             }
         };
