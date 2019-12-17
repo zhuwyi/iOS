@@ -51,8 +51,6 @@
     _addressLab.font = [UIFont systemFontOfSize:15];
     _addressLab.textAlignment = NSTextAlignmentCenter;
     _addressLab.text = @"暂未选择地区";
-    _addressLab.text = @"暂未选择地区";
-    _addressLab.text = @"暂未选择地区";
 
     [self.view addSubview:_addressLab];
     
